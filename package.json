@@ -1,0 +1,31 @@
+{
+  "name": "cypresscucumber",
+  "version": "1.0.0",
+  "description": "Testing using cucumber with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YahyaQandel/CypressCucumber.git"
+  },
+  "keywords": [
+    "Cypress",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YahyaQandel/CypressCucumber/issues"
+  },
+  "homepage": "https://github.com/YahyaQandel/CypressCucumber#readme",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.1.1",
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  }
+}
